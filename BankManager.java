@@ -7,8 +7,8 @@ public class BankManager {
     public static void main(String[] args) {
         List<BankAccount> accounts = new ArrayList<>();
 
-        BankAccount savings = new SavingsAccount("12345", "Abhi Uranw", 0.02);
-        BankAccount checking = new CheckingAccount("67890", "Rahul Sharma", 500.0);
+        BankAccount savings = new SavingsAccount("12345", "Akanksha Gupta", 0.02);
+        BankAccount checking = new CheckingAccount("67890", "Juhi", 500.0);
 
         accounts.add(savings);
         accounts.add(checking);
